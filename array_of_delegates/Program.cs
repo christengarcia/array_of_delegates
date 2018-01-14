@@ -14,6 +14,11 @@ namespace array_of_delegates
             return Radius * 2;
         }
 
+        public double Circumference(double Radius)
+        {
+            return Diameter(Radius) * PI;
+        }
+
 
     }
 }
