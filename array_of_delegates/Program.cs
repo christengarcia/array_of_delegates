@@ -19,6 +19,11 @@ namespace array_of_delegates
             return Diameter(Radius) * PI;
         }
 
+        public double Area(double Radius)
+        {
+            return Radius * Radius * PI;
+        }
+
 
     }
 }
